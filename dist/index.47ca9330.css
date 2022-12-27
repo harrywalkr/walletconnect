@@ -1,0 +1,81 @@
+body {
+  height: 100vh;
+  background: #0000000d;
+  place-content: center;
+  margin: 0;
+  font-family: Nunito;
+  display: grid;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+.onboard-container {
+  min-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-radius: .7em;
+  padding: 4em;
+  box-shadow: 10px 10px 30px #0000001a;
+}
+
+.onboard {
+  color: #fff;
+  text-align: center;
+  background-color: #4c00ff;
+  border-radius: .3em;
+  margin-top: 2em;
+  padding: .7em;
+  font-size: 1.3rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+.loader {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: none;
+}
+
+.account {
+  text-indent: 1.2em;
+  background: #e9e9e9;
+  border-radius: .3em;
+  padding: .3em;
+  display: inline-block;
+  position: relative;
+}
+
+.account:before {
+  content: "";
+  width: .7em;
+  height: .7em;
+  background: green;
+  border-radius: 50%;
+  position: absolute;
+  top: .6em;
+  left: .5em;
+}
+
+.up {
+  width: 10em;
+  display: none;
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.confetti {
+  width: 20em;
+  z-index: 2;
+  display: none;
+  position: absolute;
+}
+
+/*# sourceMappingURL=index.47ca9330.css.map */
